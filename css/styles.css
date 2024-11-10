@@ -616,6 +616,7 @@ button{
     }
     .team-list{
         gap: 24px;
+        row-gap: 64px;
         flex-basis: calc((100% - 24px) / 2);
     }
 }
