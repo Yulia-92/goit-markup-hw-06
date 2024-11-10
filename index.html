@@ -52,7 +52,7 @@
                 <nav class="mob-nav-menu">
                     <ul class="mob-nav-list">
                         <li class="mob-nav-item">
-                            <a class="mob-nav-link active" href="./index.html">Studio</a>
+                            <a class="mob-nav-link" id="studio-link" href="./index.html">Studio</a>
                         </li>
                         <li class="mob-nav-item">
                             <a class="mob-nav-link" href="">Portfolio</a>
@@ -114,14 +114,14 @@
     </Header>
     <main>
         <!--Section1-->
-        <!-- <section class="title-section section">
+        <section class="title-section section">
            <div class="container">
                 <h1 class="title-text">Effective Solutions for Your Business</h1>
                 <button class="btn-content" type="button">Order Service</button>
            </div>
-        </section> -->
+        </section>
         <!--Section2-->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container features-container">
             <h2 class="visually-hidden">features</h2> 
             <ul class="container-list">
@@ -163,14 +163,18 @@
                 </li>
             </ul>
             </div>     
-        </section>   -->
+        </section>  
         <!--Section3-->
-        <!-- <section class="section team-section ">
+        <section class="section team-section ">
            <div class=" container team-container">
                 <h2 class="team-title">Our Team</h2>
                 <ul class="team-list">
                     <li class="team-box">
-                        <img  src="./images/Card1.jpg" alt="Mark Guerrero" width="264">
+                        <img
+                        srcset="
+                        ./images/Card1.jpg 1x, 
+                        ./images/Card1-2x.jpg 2x"
+                          src="./images/Card1.jpg" alt="Mark Guerrero" width="264">
                         <div class="team-box-list">
                             <h3 class="team-content-list">Mark Guerrero</h3>
                             <p class="team-content-item">Product Designer</p>
@@ -205,7 +209,9 @@
                         </div>
                     </li>
                     <li class="team-box">
-                        <img  src="./images/Card2.jpg" alt="Tom Ford" width="264">
+                        <img
+                        srcset="./images/Card2.jpg 1x, ./images/Card2-2x.jpg 2x"
+                        src="./images/Card2.jpg" alt="Tom Ford" width="264">
                         <div class="team-box-list">
                             <h3 class="team-content-list">Tom Ford</h3>
                             <p class="team-content-item">Frontend Developer</p>
@@ -240,7 +246,9 @@
                         </div>
                     </li>
                     <li class="team-box">
-                        <img  src="./images/Card3.jpg" alt="Camila Garcia" width="264">
+                        <img
+                        srcset="./images/Card3.jpg 1x, ./images/Card3-2x.jpg 2x"
+                        src="./images/Card3.jpg" alt="Camila Garcia" width="264">
                         <div class="team-box-list">
                             <h3 class="team-content-list">Camila Garcia</h3>
                             <p class="team-content-item">Marketing</p>
@@ -274,7 +282,9 @@
                         </div>
                     </li>
                     <li class="team-box">
-                        <img  src="./images/Card4.jpg" alt="Daniel Wilson" width="264">
+                        <img
+                        srcset="./images/Card4.jpg 1x, ./images/Card4-2x.jpg 2x"
+                        src="./images/Card4.jpg" alt="Daniel Wilson" width="264">
                         <div class="team-box-list">
                             <h3 class="team-content-list">Daniel Wilson</h3>
                             <p class="team-content-item">UI Designer</p>
@@ -309,15 +319,17 @@
                     </li>
                 </ul>
            </div>
-        </section> -->
+        </section>
         <!--Section4-->
-        <!-- <section class="section">
+        <section class="section">
             <div class="container portfolio-container">
                 <h2 class="portfolio-title">Our Portfolio</h2>
                 <ul class="portfolio-list">
                     <li class="portfolio-box">
                         <div class="portfolio-wrapper">
-                            <img src="./images/Banking.jpg" alt="Bank App" width="360">
+                            <img
+                            srcset="./images/Banking.jpg 1x, ./images/Banking-2x.jpg 2x"
+                            src="./images/Banking.jpg" alt="Bank App" width="360">
                             <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio-card">
@@ -327,7 +339,9 @@
                     </li>
                     <li class="portfolio-box">
                         <div class="portfolio-wrapper">
-                        <img src="./images/Cashless.jpg" alt="Payment" width="360">
+                        <img
+                        srcset="./images/Cashless.jpg 1x, ./images/Cashless-2x.jpg 2x"
+                        src="./images/Cashless.jpg" alt="Payment" width="360">
                         <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio-card">
@@ -337,7 +351,9 @@
                     </li>
                     <li class="portfolio-box">
                         <div class="portfolio-wrapper">
-                        <img src="./images/Meditation.jpg" alt="Meditation App" width="360">
+                        <img
+                        srcset="./images/Meditation.jpg 1x, ./images/Meditation-2x.jpg 2x"
+                        src="./images/Meditation.jpg" alt="Meditation App" width="360">
                         <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio-card">
@@ -347,7 +363,9 @@
                     </li>
                     <li class="portfolio-box">
                         <div class="portfolio-wrapper">
-                        <img src="./images/Taxi.jpg" alt="Taxi Service" width="360">
+                        <img
+                        srcset="./images/Taxi.jpg 1x, ./images/Taxi-2x.jpg 2x"
+                        src="./images/Taxi.jpg" alt="Taxi Service" width="360">
                         <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio-card">
@@ -357,7 +375,9 @@
                     </li>
                     <li class="portfolio-box">
                         <div class="portfolio-wrapper">
-                        <img src="./images/Screen.jpg" alt="Screen Illustrations" width="360">
+                        <img
+                        srcset="./images/Screen.jpg 1x, ./images/Screen-2x.jpg 2x"
+                        src="./images/Screen.jpg" alt="Screen Illustrations" width="360">
                         <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio-card">
@@ -367,7 +387,9 @@
                     </li>
                     <li class="portfolio-box">
                         <div class="portfolio-wrapper">
-                        <img src="./images/Online.jpg" alt="Online Courses" width="360">
+                        <img
+                        srcset="./images/Online.jpg 1x, ./images/Online-2x.jpg 2x"
+                        src="./images/Online.jpg" alt="Online Courses" width="360">
                         <p class="portfolio-cover-text">14 Stylish and User-Friendly App Design Concepts · Task Manager App · Calorie Tracker App · Exotic Fruit Ecommerce App · Cloud Storage App</p>
                         </div>
                         <div class="portfolio-card">
@@ -377,9 +399,9 @@
                     </li>
                 </ul>
             </div>
-        </section>     -->
-    <!-- </main> -->
-    <!-- <footer class="footer-menu">
+        </section>     
+    </main>
+    <footer class="footer-menu">
         <div class="container footer-container">
             <div class="container-logo">
                 <a class="footer-logo" href="./index.html">Web<span class="foter-text-studio">Studio</span></a>
@@ -436,8 +458,8 @@
                 </form>
             </div>
         </div>
-    </footer> -->
-    <!-- <div class="backdrop data-modal">
+    </footer>
+    <div class="backdrop data-modal">
         <div class="modal">
             <button type="button" class="modal-close" data-modal-close="">
                 <svg class="modal-close-icon" width="8" height="8">
@@ -495,18 +517,22 @@
                              name="user-privacy"
                              id="user-privacy"
                              value="true">
-                        <label for="user-privacy" class="check-text">
+                        <label class="check-text" for="user-privacy">
                             <span class="accept-box">
                                 <svg class="check-icon" width="10" height="8">
                                     <use href="./images/icons.svg#icon-vector"></use>
                                 </svg>
-                            </span>I accept the terms and conditions of the&nbsp;<a class="check-link" href="">Privacy Policy</a>
+                            </span>
+                            <span class="span-privacy-text">
+                                I accept the terms and conditions of the&nbsp;
+                                <a class="check-link" href="">Privacy Policy</a>
+                            </span>
                         </label>
                     </div>
                     <button type="submit" class="modal-btn">Send</button>
             </form>
         </div>
-    </div> -->
+    </div>
     <script src="./js/modal.js"></script>
     <script src="./js/menu.js"></script>
 </body>    
