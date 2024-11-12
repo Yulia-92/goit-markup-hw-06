@@ -359,7 +359,7 @@ button{
     letter-spacing: 0.02em;
     text-align: center;
     color: #fff;
-    margin: 0 auto 48px auto;
+    margin: 48px;
     display: block;
 }
 
@@ -394,6 +394,7 @@ button{
     .title-text{
         font-size: 56px;
         line-height: 1.07;
+        margin: 36px;
     }
 }
 
@@ -405,6 +406,7 @@ button{
     }
     .title-text{
         max-width: 496px;
+        margin: 0 auto 48px auto;
     }
     .btn-content {
         min-width: 169px;
@@ -730,6 +732,9 @@ button{
     }
     .portfolio-box{
         flex-basis: calc((100% - 24) / 2)
+    }
+    .portfolio-img{
+        width: 100%;
     }
     
     .portfolio-row-item{
